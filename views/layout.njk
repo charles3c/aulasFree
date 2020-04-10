@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% block titel %}
+    <title>AulasFree</title>
+    {% endblock titel %}
+    
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="links">
+            <a href="/">Professores</a>
+            <a href="/students">Alunos</a>
+        </div>
+    </header>
+
+    {% block section %}
+        
+    {% endblock section %}
+        
+
+    <footer>
+        <p>Todos os direitos reservados, AulasFree</p>
+    </footer>
+</body>
+
+</html>
