@@ -18,6 +18,4 @@ server.use(routes)
 // })
 
 
-server.listen(5000, ()=>{
-    console.log('hi')
-})
+server.listen(process.env.PORT || 5000)
