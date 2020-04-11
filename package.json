@@ -1,5 +1,5 @@
 {
-  "name": "Aula-free-04-1",
+  "name": "aulasfree",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -7,11 +7,11 @@
     "express": "^4.17.1",
     "nunjucks": "^3.2.1"
   },
+
   "scripts": {
-    "start": "npm-run-all -p nodemon browser-sync",
-    "nodemon": "nodemon server.js",
-    "browser-sync": "browser-sync start --proxy http://localhost:5000 --files 'public, views'"
+    "start": "node server.js"
   },
+
   "devDependencies": {
     "browser-sync": "^2.26.7",
     "nodemon": "^2.0.2",

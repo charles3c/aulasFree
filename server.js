@@ -13,9 +13,9 @@ nunjucks.configure('views',{
 
 server.use(routes)
 
-// server.get('/', (req, res)=>{
-//     res.render('index')
-// })
+server.get('/', (req, res)=>{
+    res.render('index')
+})
 
 
 server.listen(process.env.PORT || 5000)
