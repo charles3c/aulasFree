@@ -10,7 +10,7 @@
   },
 
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "yarn server.js"
   },
 
   "devDependencies": {
