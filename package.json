@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  
   "dependencies": {
     "express": "^4.17.1",
     "nunjucks": "^3.2.1"
   },
 
   "scripts": {
-    "start": "node server.js"
+    "start": "npm-run-all -p nodemon browser-sync",
+    "nodemon": "nodemon server.js",
+    "browser-sync": "browser-sync start --proxy http://localhost:5000 --files 'public, views'"
   },
 
   "devDependencies": {

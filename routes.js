@@ -6,7 +6,7 @@ routes.get('/', (req, res)=>{
 })
 
 routes.get('/students', (req, res)=>{
-    res.render('estudents')
+    res.render('students')
 })
 
 module.exports = routes
